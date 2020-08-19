@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"],
+      "@utils/*": ["utils/*"],
+      "@helpers/*": ["helpers/*"],
+      "@config/*": ["config/*"],
+      "@routes/*": ["routes/*"],
+      "@middleware/*": ["middleware/*"],
+      "@services/*": ["services/*"],
+      "@validators/*": ["validators/*"],
+      "@cron/*": ["cron/*"],
+      "@graphql/*": ["graphql/*"],
+      "@graphql/resolvers/*": ["graphql/resolvers/*"],
+      "@graphql/types/*": ["graphql/types/*"],
+      "@database/*": ["database/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
